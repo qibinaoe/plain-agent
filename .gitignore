@@ -1,0 +1,112 @@
+# ====================== 系统文件（全平台通用）======================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+# ====================== IDE / 编辑器配置 ======================
+# VSCode
+.vscode/
+*.swp
+*.swo
+.idea/
+# JetBrains全家桶（IDEA、PyCharm、GoLand等）
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ====================== 日志、缓存、临时文件 ======================
+*.log
+logs/
+log/
+*.tmp
+*.temp
+*.bak
+*.backup
+cache/
+__pycache__/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ====================== 依赖包、构建产物（按需选）======================
+# Node / 前端项目（Vue/React）
+node_modules/
+dist/
+build/
+.npm
+.eslintcache
+*.local
+coverage/
+
+# Python
+venv/
+env/
+.venv/
+.env
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+*.nar
+.gradle/
+build/
+
+# Go
+go.mod.bak
+go.sum.bak
+bin/
+
+# ====================== 环境变量、密钥（非常重要！）======================
+.env
+.env.local
+.env.development
+.env.production
+*.key
+*.pem
+*.cert
+secret.json
+
+# ====================== 数据库 ======================
+*.sqlite
+*.sqlite3
+*.db
+dump.sql
+
+# ====================== 其他通用 ======================
+# 本地配置
+local.config.js
+local.properties
+
+# 压缩包
+*.zip
+*.tar
+*.gz
+*.rar
